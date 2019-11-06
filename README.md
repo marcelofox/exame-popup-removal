@@ -1,7 +1,7 @@
 # Exame-popup-removal
 Chrome Extension for removing Signup Popup com Exame.com.br
 
-# Esta é uma extensão de chrome que remove o popup anuncinando a assinatura do site Exame.com.br quando seu limite de leitura mensal estourou.
+** Esta é uma extensão de chrome que remove o popup anuncinando a assinatura do site Exame.com.br quando seu limite de leitura mensal estourou.
 
 ## Como usar
 
