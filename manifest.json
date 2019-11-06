@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Exame.com.br Popup Removal",
+    "description": "This extension removes the Exame.com popup for sign up",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "trollface.png",
+     "default_popup": "button.html"
+    },
+    "permissions": [
+        "tabs", "<all_urls>"
+      ],
+   "content_scripts":[
+       {
+        "matches": ["http://exame.abril.com.br/*"],
+        "js": ["/remover.js"]
+       }
+   ]
+  }
